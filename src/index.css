@@ -31,7 +31,7 @@
 /* Home Styles */
 
 .home-bidy-div {
-  margin: 5rem;
+  /* margin: 5rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,6 +93,26 @@
   }
 }
 
+/* Fopoter Styles */
+
+.footer-body-div {
+  width: 100%;
+  height: 20rem;
+  padding: 0;
+  margin:0;
+  background-color: #101820;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+#copy {
+  color: whitesmoke;
+  font-size: 16px;
+  margin: 1rem;
+  line-height: 22px;
+}
+
 
 /* Error Page Styles */
 
@@ -109,7 +129,7 @@
   text-align: center;
   font-size: 120px;
   color: #ef3340;
-  cursor: default;
+  cursor: pointer;
 }
 
 .error-h4 {
@@ -185,6 +205,66 @@
   transition: all 0.5s ease 0s;
 }
 .optical-home-button:hover {
+  background-color: #ededed;
+  box-shadow: 8px 12px 0px 0px #7f7f7f;
+  color: #101820;
+  transform: translateY(-6px);
+  transition: all 0.25s ease 0s;
+  cursor: pointer;
+}
+
+/* Illusion Stayles */
+
+.illusion-body-div {
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.illusion-image {
+  border-radius: 8px;
+  box-shadow: 0 0 8px 2px;
+  transition: all 2s ease-in-out;
+}
+
+.illusion-image:hover {
+  filter: blur(18px);
+  transition: all 12s ease-in-out;
+}
+
+.star-button-div {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.star-img {
+  width: 4rem;
+  height: 4rem;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.illusion-star-button {
+  border-radius: 8px;
+  border: none;
+  background: none;
+  transform: rotate(180deg);
+}
+
+.illusion-home-button {
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 2px;
+  margin: 2rem;
+  transition: all 0.5s ease 0s;
+  padding: 0;
+}
+.illusion-home-button:hover {
   background-color: #ededed;
   box-shadow: 8px 12px 0px 0px #7f7f7f;
   color: #101820;

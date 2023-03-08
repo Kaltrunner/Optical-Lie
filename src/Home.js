@@ -1,4 +1,7 @@
+import { ScrollToTop } from 'react-router-scroll-to-top';
 import { Link } from "react-router-dom";
+import Footer from './Footer';
+
 
 function Home() {
   return (
@@ -21,6 +24,8 @@ function Home() {
           <button className="optical-main-button">optical</button>
         </Link>
       </div> */}
+      <Footer />
+     <ScrollToTop />
     </div>
   );
 }

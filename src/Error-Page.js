@@ -1,10 +1,11 @@
+import { ScrollToTop } from 'react-router-scroll-to-top';
 import { Link } from "react-router-dom";
 
 function ErrorPage() {
     return (
         <div className="main-error-page-div" >
             <div>
-                <Link id="hidden-error-link" to="/" ><h1 className="error-page-text" >Error:</h1></Link>
+                <Link id="hidden-error-link" to="/MainPage" ><h1 className="error-page-text" >Error:</h1></Link>
                 <h4 className="error-h4" >You have reached this page my mistake!<br/>Please press and hold the Control + Alt + Delete (for Windows users) or Command + Option + Esc (for Mac users) to reset the page.<br/>Thanks!</h4>
             </div>
 
@@ -128,6 +129,7 @@ A server operator has received a legal demand to deny access to a resource or to
                   
                 </ul>
             </div>
+            <ScrollToTop />
         </div>
     )
 }
