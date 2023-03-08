@@ -8,16 +8,16 @@ function Home() {
     <div className="home-bidy-div" >
       <h1 className="optical-text">optical lie</h1>
       <div className="home-button-div">
-        <Link to="/ErrorPage">
+        <Link to="/MainPage">
           <button className="enter-button">enter</button>
         </Link>
       </div>
       <div className="home-illusion-div">
-        <img
+        <Link to="/ErrorPage" id="home-img" ><img
           className="home-illusion"
           src="https://www.anythinklibraries.org/sites/default/files/styles/full/public/optical_illusion.jpg?itok=HCr7kBfz"
           alt="spinning optical illistion"
-        />
+        /></Link>
       </div>
       {/* <div className="optical-main-button-div">
         <Link to="/MainPage">

@@ -30,7 +30,7 @@ function MainPage() {
           </div>
         </Link>
 
-        <Link to="/Illusion2">
+        <Link to="/Illusion3">
           <div className="illusion-img-div">
             <img
               className="main-illusion-img" id="img-3"
@@ -40,17 +40,17 @@ function MainPage() {
           </div>
         </Link>
 
-        <Link to="/Illusion2">
+        <Link to="/Illusion4">
           <div className="illusion-img-div">
             <img
-              className="main-illusion-img" id="img-4"
+              className="main-illusion-img" id="img-4 img-round"
               src="https://www.braingle.com/images/illusions/30387.gif"
               alt="2stillusion"
             />
           </div>
         </Link>
 
-        <Link to="/Illusion2">
+        <Link to="/Illusion5">
           <div className="illusion-img-div">
             <img
               className="main-illusion-img" id="img-5"
@@ -60,7 +60,7 @@ function MainPage() {
           </div>
         </Link>
 
-        <Link to="/Illusion2">
+        <Link to="/Illusion6">
           <div className="illusion-img-div">
             <img
               className="main-illusion-img" id="img-6"
@@ -70,7 +70,7 @@ function MainPage() {
           </div>
         </Link>
 
-        <Link to="/Illusion2">
+        <Link to="/Illusion7">
           <div className="illusion-img-div">
             <img
               className="main-illusion-img" id="img-7"
