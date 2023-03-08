@@ -1,11 +1,18 @@
-
+import { Route } from "react-router-dom";
+import SlideRoutes from 'react-slide-routes';
+import Home from "./Home";
+import ErrorPage from "./Error-Page";
+import MainPage from "./Main-Page";
 import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello!!!</h1>
-    </div>
+    <SlideRoutes >
+      <Route path="/" element={<Home />} />
+      <Route path="/ErrorPage" element={<ErrorPage />} />
+      <Route path="/MainPage" element={<MainPage />} />
+    
+    </SlideRoutes>
   );
 }
 

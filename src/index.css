@@ -1,4 +1,194 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat&family=Noto+Sans+TC&family=Press+Start+2P&family=Roboto&display=swap');
+
+/* html {
+    --scrollbarBG: whitesmoke;
+    --thumbBG: #7f7f7f;
+  }
+  body::-webkit-scrollbar {
+    width: 12px;
+  } */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  /* body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 2.5px solid var(--scrollbarBG);
+  } */
+  
+  ::selection {
+    background-color: #7f7f7f;
+    /* color: whitesmoke; */
+  }
+
+
+/* Home Styles */
+
+.home-bidy-div {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.optical-text {
+  font-size: 92px;
+  padding: 0;
+  margin-left: 5rem;
+  color: #101820;
+  transition: all 3s ease 0s;
+}
+.optical-text:hover {
+  color: whitesmoke;
+  cursor: default;
+  transition: all 16s ease 0s;
+}
+
+.enter-button {
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 2px;
+  margin: 4rem;
+  transition: all 0.5s ease 0s;
+}
+.enter-button:hover {
+  background-color: #ededed;
+  box-shadow: 8px 12px 0px 0px #7f7f7f;
+  color: #101820;
+  transform: translateY(-6px);
+  transition: all 0.25s ease 0s;
+  cursor: pointer;
+}
+
+.home-illusion {
+  height: 75rem;
+  margin: 18rem auto;
+  box-shadow: 0 0 10px 4px;
+}
+
+.home-illusion img {
+  transform-origin: center;
+  height: 75rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .home-illusion {
+    animation: home-illusion-spin infinite 36s linear ;
+  }
+}
+@keyframes home-illusion-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Error Page Styles */
+
+.main-error-page-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 5rem auto;
+  max-width: 1200px;
+}
+
+.error-page-text {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120px;
+  color: #ef3340;
+  cursor: default;
+}
+
+.error-h4 {
+  font-size: 18px;
+}
+
+.hidden-error-link {
+  color: black;
+  transition: all 3s ease 0s;
+}
+.hidden-error-link:hover {
+  color: whitesmoke;
+  transition: all 9s ease 0s;
+}
+
+#hidden-error-link {
+  text-decoration: none;
+}
+
+/* Main Page Styles */
+
+.main-page-body-div {
+  margin: 5rem;
+}
+
+.main-div-text {
+  text-align: center;
+  font-size: 120px;
+  color: #101820;
+  cursor: default;
+}
+
+.illusion-div {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 685px;
+  width: 90vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  background-color: white;
+}
+
+.illusion-img-div {
+  display: inline-block;
+  margin: 1rem 2rem;
+}
+
+.main-illusion-img {
+  border-radius: 8px;
+  transition: all .5s ease-in-out;
+}
+.main-illusion-img:hover {
+  box-shadow: 0 0 8px 4px;
+  transition: all .5s ease-in-out;
+}
+
+.mainpage-button-div {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.optical-home-button {
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 2px;
+  margin: 4rem auto;
+  transition: all 0.5s ease 0s;
+}
+.optical-home-button:hover {
+  background-color: #ededed;
+  box-shadow: 8px 12px 0px 0px #7f7f7f;
+  color: #101820;
+  transform: translateY(-6px);
+  transition: all 0.25s ease 0s;
+  cursor: pointer;
 }
