@@ -110,6 +110,8 @@
   flex-direction: row-reverse;
   align-items: flex-end;
   flex-wrap: wrap;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .line-div {
