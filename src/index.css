@@ -41,7 +41,7 @@
 .optical-text {
   font-size: 92px;
   padding: 0;
-  margin-left: 5rem;
+  margin: 5rem;
   color: #101820;
   transition: all 3s ease 0s;
 }
@@ -107,9 +107,9 @@
   margin-top: 2rem;
   background-color: #101820;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   align-items: flex-end;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
