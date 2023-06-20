@@ -5,20 +5,6 @@ import { ScrollToTop } from "react-router-scroll-to-top";
 function Illusion6() {
   const [isFavorite, setIsFavorite] = useState(false);
 
-  // useEffect(() => {
-  //     fetch("/Illusion2", {
-  //         method: "PATCH",
-  //         headers: {
-  //             "content-type": "application/json",
-  //         },
-  //         body: JSON.stringify({isFavorite : !isFavorite}),
-  //     })
-  //     .then(res => res.json())
-  //     .then((isFavorite) => {
-  //         setIsFavorite(isFavorite)
-  //     })
-  // },[])
-
   return (
     <div className="illusion-body-div">
       <h1>img .6</h1>

@@ -1,39 +1,13 @@
 import React, { useState } from "react";
-import { ScrollToTop } from 'react-router-scroll-to-top';
+import { ScrollToTop } from "react-router-scroll-to-top";
 import { Link } from "react-router-dom";
-// import ls from 'local-storage'
 
 function Illusion1() {
   const [isFavorite, setIsFavorite] = useState(false);
 
-  // useEffect(() => {
-  //     fetch("ls", {
-  //         method: "PATCH",
-  //         headers: {
-  //             "content-type": "application/json",
-  //         },
-  //         body: JSON.stringify({isFavorite : !isFavorite}),
-  //     })
-  //     .then(res => res.json())
-  //     .then((isFavorite) => {
-  //         setIsFavorite(isFavorite)
-  //     })
-  // },[])
-
-//   useEffect(() => {
-//     const data = localStorage.getItem("like-star");
-//     if (data) {
-//       setIsFavorite(JSON.parse(data));
-//     }
-//   }, []);
-
-//   useEffect(() => {
-//     localStorage.setIsFavorite("like-star", JSON.stringify(isFavorite));
-//   });
-
   return (
     <div className="illusion-body-div">
-        <h1>img .1</h1>
+      <h1>img .1</h1>
       <img
         className="illusion-image"
         src="https://www.rd.com/wp-content/uploads/2018/01/01-Optical-Illusions-That-Will-Make-Your-Brain-Hurt-342149405-Barsukov-Vladimir.jpg?w=640"

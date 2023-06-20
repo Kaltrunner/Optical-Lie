@@ -1,77 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat&family=Noto+Sans+TC&family=Press+Start+2P&family=Roboto&display=swap');
 
-/* html {
-    --scrollbarBG: whitesmoke;
-    --thumbBG: #7f7f7f;
-  }
   body::-webkit-scrollbar {
-    width: 12px;
-  } */
+    display: none;
+  }
   body {
     font-family: 'Roboto', sans-serif;
     background-color: whitesmoke;
     scrollbar-width: thin;
     scrollbar-color: var(--thumbBG) var(--scrollbarBG);
   }
-  /* body::-webkit-scrollbar-track {
-    background: var(--scrollbarBG);
-  }
-  body::-webkit-scrollbar-thumb {
-    background-color: var(--thumbBG) ;
-    border-radius: 6px;
-    border: 2.5px solid var(--scrollbarBG);
-  } */
   
   ::selection {
-    background-color: #7f7f7f;
-    /* color: whitesmoke; */
+    background-color: #000;
   }
 
 
 /* Home Styles */
 
 .home-bidy-div {
-  /* margin: 5rem; */
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* text-align: center; */
 }
 
 .optical-text {
-  font-size: 92px;
+  font-size: 12vw;
   padding: 0;
   margin: 5rem;
-  color: #101820;
+  color: #000;
   transition: all 3s ease 0s;
 }
 .optical-text:hover {
   color: whitesmoke;
   cursor: default;
-  transition: all 16s ease 0s;
+  transition: all 30s ease 0s;
 }
 
 .enter-button {
-  width: 120px;
-  height: 60px;
-  font-size: 20px;
-  border-radius: 2px;
-  margin: 4rem;
-  transition: all 0.5s ease 0s;
+  width: 12vw;
+  height: 10vh;
+  font-size: 2vw;
+  background-color: #ededed;
+  border: 1px solid #000;
+  border-radius: 18px;
+  margin: 6vw auto;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.02),
+  0px 5px 4px rgba(0, 0, 0, 0.03),
+  0px 12px 9px rgba(0, 0, 0, 0.05),
+  0px 20px 15px rgba(0, 0, 0, 0.06),
+  0px 32px 24px rgba(0, 0, 0, 0.08);
+  transition: all 0.5s ease-in-out;
 }
+
 .enter-button:hover {
   background-color: #ededed;
-  box-shadow: 8px 12px 0px 0px #7f7f7f;
-  color: #101820;
-  transform: translateY(-6px);
-  transition: all 0.25s ease 0s;
+  color: #ededed;
+  border: none;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.02),
+  0px 4px 5px rgba(0, 0, 0, 0.05),
+  0px 8px 12px rgba(0, 0, 0, 0.07),
+  0px 14px 21px rgba(0, 0, 0, 0.10),
+  0px 22px 33px rgba(0, 0, 0, 0.12),
+  0px 32px 47px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
 
 .home-illusion {
   height: 75rem;
   margin: 18rem auto;
-  box-shadow: 0 0 10px 4px #101820;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17),
+  0px 14px 40px rgba(0, 0, 0, 0.33),
+  0px 32px 91px rgba(0, 0, 0, 0.50);
 }
 
 .home-illusion img {
@@ -81,7 +83,7 @@
 
 #home-img {
   text-decoration: none;
-  cursor: default;
+  cursor: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -102,31 +104,35 @@
 
 .footer-body-div {
   width: 100%;
-  height: 16rem;
-  padding: 0;
-  margin-top: 2rem;
-  background-color: #101820;
+  height: 28vh;
+  margin-top: 6vw;
+  background-color: #000;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
   display: flex;
-  flex-direction: column;
   align-items: flex-end;
-  justify-content: space-evenly;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-
-.line-div {
-  width: 90%;
-  height: 2px;
-  background-color: whitesmoke;
-  border-radius: 8px;
-  margin: 0 auto;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 #copy {
   color: whitesmoke;
-  font-size: 16px;
-  margin: 1rem;
-  line-height: 22px;
+  font-size: 1.25vw;
+  line-height: 2.5vh;
+  padding: 0;
+  margin: 0 2vw;
+  margin-bottom: 2vh;
+}
+
+#footer-link {
+  text-decoration: none;
+  color: gray;
+  transition: all 0.5s ease-in-out;
+}
+
+#footer-link:hover {
+  border-bottom: 1px solid gray;
+  transition: all 0.5s ease-in-out;
 }
 
 
@@ -153,12 +159,12 @@
 }
 
 .hidden-error-link {
-  color: black;
-  transition: all 3s ease 0s;
+  color: #000;
+  transition: all 9s ease-in-out 0s;
 }
 .hidden-error-link:hover {
   color: whitesmoke;
-  transition: all 9s ease 0s;
+  transition: all 9s ease-in-out 0s;
 }
 
 #hidden-error-link {
