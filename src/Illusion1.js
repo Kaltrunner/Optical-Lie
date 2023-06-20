@@ -1,46 +1,30 @@
-import React, { useState } from "react";
 import { ScrollToTop } from "react-router-scroll-to-top";
 import { Link } from "react-router-dom";
 
 function Illusion1() {
-  const [isFavorite, setIsFavorite] = useState(false);
-
   return (
     <div className="illusion-body-div">
-      <h1>img .1</h1>
+      <h1 className="illusion-body-text">img .1</h1>
       <img
         className="illusion-image"
         src="https://www.rd.com/wp-content/uploads/2018/01/01-Optical-Illusions-That-Will-Make-Your-Brain-Hurt-342149405-Barsukov-Vladimir.jpg?w=640"
-        alt="illusion1"
+        alt=""
       />
+      <div className="illusion-body-info">
+        <h6 className="illusion-body-info-h6">Lorem ipsum dolor</h6>
+        <p className="illusion-body-info-p">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
       <div>
-        <div className="star-button-div">
-          {isFavorite ? (
-            <button
-              onClick={() => setIsFavorite(false)}
-              className="illusion-star-button favorite active"
-            >
-              <img
-                className="star-img"
-                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgLjI4OGwyLjgzMyA4LjcxOGg5LjE2N2wtNy40MTcgNS4zODkgMi44MzMgOC43MTgtNy40MTYtNS4zODgtNy40MTcgNS4zODggMi44MzMtOC43MTgtNy40MTYtNS4zODloOS4xNjd6Ii8+PC9zdmc+"
-                alt="star"
-              />
-            </button>
-          ) : (
-            <button
-              onClick={() => setIsFavorite(true)}
-              className="illusion-star-button favorite"
-            >
-              <img
-                className="star-img"
-                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgNi43NmwxLjM3OSA0LjI0Nmg0LjQ2NWwtMy42MTIgMi42MjUgMS4zNzkgNC4yNDYtMy42MTEtMi42MjUtMy42MTIgMi42MjUgMS4zNzktNC4yNDYtMy42MTItMi42MjVoNC40NjVsMS4zOC00LjI0NnptMC02LjQ3MmwtMi44MzMgOC43MThoLTkuMTY3bDcuNDE2IDUuMzg5LTIuODMzIDguNzE4IDcuNDE3LTUuMzg4IDcuNDE2IDUuMzg4LTIuODMzLTguNzE4IDcuNDE3LTUuMzg5aC05LjE2N2wtMi44MzMtOC43MTh6Ii8+PC9zdmc+"
-                alt="star"
-              />
-            </button>
-          )}
-        </div>
         <Link to="/MainPage">
-          <button className="illusion-home-button">Home</button>
+          <button className="illusion-home-button">back</button>
         </Link>
       </div>
       <ScrollToTop />
