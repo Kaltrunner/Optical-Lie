@@ -10,6 +10,10 @@ import Illusion4 from "./Illusion4";
 import Illusion5 from "./Illusion5";
 import Illusion6 from "./Illusion6";
 import Illusion7 from "./Illusion7";
+import Illusion8 from "./Illusion8";
+import Illusion9 from "./Illusion9";
+import Illusion10 from "./Illusion10";
+import Illusion11 from "./Illusion11";
 import Footer from "./Footer";
 import "./index.css";
 
@@ -27,6 +31,10 @@ function App() {
       <Route path="/Illusion5" element={<Illusion5 />} />
       <Route path="/Illusion6" element={<Illusion6 />} />
       <Route path="/Illusion7" element={<Illusion7 />} />
+      <Route path="/Illusion8" element={<Illusion8 />} />
+      <Route path="/Illusion9" element={<Illusion9 />} />
+      <Route path="/Illusion10" element={<Illusion10 />} />
+      <Route path="/Illusion11" element={<Illusion11 />} />
     </SlideRoutes>
   );
 }

@@ -25,7 +25,7 @@ function Illusion2() {
       </div>
       <div>
         <Link to="/MainPage">
-          <button className="illusion-home-button">Home</button>
+          <button className="illusion-home-button">back</button>
         </Link>
       </div>
       <ScrollToTop />

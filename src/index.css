@@ -61,7 +61,7 @@
   0px 12px 9px rgba(0, 0, 0, 0.05),
   0px 20px 15px rgba(0, 0, 0, 0.06),
   0px 32px 24px rgba(0, 0, 0, 0.08);
-  transition: all 0.25s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .enter-button:hover {
@@ -73,8 +73,8 @@
   0px 14px 21px rgba(0, 0, 0, 0.10),
   0px 22px 33px rgba(0, 0, 0, 0.12),
   0px 32px 47px rgba(0, 0, 0, 0.15);
-  transform: translateY(-6px);
-  transition: all 0.25s ease-in-out;
+  transform: translateY(-12px);
+  transition: all 1s ease-in-out;
   cursor: pointer;
 }
 
@@ -192,10 +192,11 @@
 
 .main-div-text {
   text-align: center;
-  font-size: 12vw;
+  font-size: 4vw;
   padding: 0;
   margin: 0;
   margin-top: 4vw;
+  margin-bottom: -8vw;
   color: #000;
   cursor: default;
 }
@@ -203,7 +204,7 @@
 .mainpage-button-div {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   align-items: center;
 }
@@ -320,6 +321,10 @@
   border-radius: 50%;
 }
 
+#rounded-img {
+  border-radius: 16px;
+}
+
 
 /* Main scroll Styles */
 
@@ -337,12 +342,9 @@
   transform-origin: right top;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 0;
   height: 100vw;
   perspective: 1px;
 	transform-style: preserve-3d;
-  padding:0;
-  margin: 0;
 }
 .img-wrapper {
   transform: rotate(90deg);
@@ -384,7 +386,7 @@
    transform: rotate(90deg) translateZ(-.15px) scale(1.15) translateX(0%) translateY(0%) ;
 }
 .last {
-  transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(25vh) translateY(-8vh) ;
+  transform: rotate(90deg) translateZ(-.5px) scale(1.5) translateX(25vh) translateY(0%) ;
 }
 .scroll-info, header {
   position: absolute;
@@ -394,15 +396,17 @@
 .img-wrapper a {
   overflow: hidden;
   display: block;
-  padding: 1vh ;
+  padding: .5vh ;
   background: whitesmoke;
   box-shadow: 0 10px 50px #000;
+  border-radius: 16px;
 }
 .main-img {
   max-width: 45vh;
   max-height: 50vh;
   transition: .5s;
   vertical-align: top;
+  border-radius: 16px;
   filter: saturate(40%) hue-rotate(5deg);
 }
 

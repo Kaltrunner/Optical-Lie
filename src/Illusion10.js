@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import { ScrollToTop } from "react-router-scroll-to-top";
 
-function Illusion3() {
+function Illusion10() {
   return (
     <div className="illusion-body-div">
-      <h1 className="illusion-body-text">img .3</h1>
+      <h1 className="illusion-body-text">img .10</h1>
       <img
         className="illusion-image"
-        src="https://images.squarespace-cdn.com/content/v1/5c45545d12b13fadfc7cf51d/1622662819685-JOVVTXF4781TELUUARQS/unsplash-image--TnlLhj46iQ.jpg?format=1000w"
+        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/full-frame-shot-of-psychedelic-pattern-royalty-free-image-1602093995.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*"
         alt=""
       />
       <div className="illusion-body-info">
@@ -32,4 +32,4 @@ function Illusion3() {
   );
 }
 
-export default Illusion3;
+export default Illusion10;

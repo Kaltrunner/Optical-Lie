@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import { ScrollToTop } from "react-router-scroll-to-top";
 
-function Illusion3() {
+function Illusion8() {
   return (
     <div className="illusion-body-div">
-      <h1 className="illusion-body-text">img .3</h1>
+      <h1 className="illusion-body-text">img .8</h1>
       <img
         className="illusion-image"
-        src="https://images.squarespace-cdn.com/content/v1/5c45545d12b13fadfc7cf51d/1622662819685-JOVVTXF4781TELUUARQS/unsplash-image--TnlLhj46iQ.jpg?format=1000w"
-        alt=""
+        src="https://i.pinimg.com/736x/12/1f/1a/121f1ab8b58be04034b75391acf74513.jpg"
+        alt="illusion2"
       />
       <div className="illusion-body-info">
         <h6 className="illusion-body-info-h6">Lorem ipsum dolor</h6>
@@ -32,4 +32,4 @@ function Illusion3() {
   );
 }
 
-export default Illusion3;
+export default Illusion8;
