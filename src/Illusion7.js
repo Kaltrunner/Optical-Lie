@@ -11,15 +11,13 @@ function Illusion7() {
         alt="illusion7"
       />
       <div className="illusion-body-info">
-        <h6 className="illusion-body-info-h6">Lorem ipsum dolor</h6>
+        <h6 className="illusion-body-info-h6">Op art – pt.3</h6>
         <p className="illusion-body-info-p">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Illusionism, focused on the perception of extended space within a flat
+          picture, is found from the earliest points of art history. However,
+          the antecedents of op art, in terms of graphic effects and concern for
+          exotic optical illusions, can be traced back to Neo-Impressionism,
+          Cubism, Futurism, Constructivism and Dada.
         </p>
       </div>
       <div>

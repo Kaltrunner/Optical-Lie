@@ -11,15 +11,13 @@ function Illusion10() {
         alt=""
       />
       <div className="illusion-body-info">
-        <h6 className="illusion-body-info-h6">Lorem ipsum dolor</h6>
+        <h6 className="illusion-body-info-h6">Fraser spiral illusion – pt.3</h6>
         <p className="illusion-body-info-p">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          The illusion is augmented by the spiral components in the checkered
+          background. It is a unique illusion, where the observer can verify the
+          concentric strands manually. When the strands are highlighted in a
+          different colour, it becomes obvious to the observer that no spiral is
+          present.
         </p>
       </div>
       <div>

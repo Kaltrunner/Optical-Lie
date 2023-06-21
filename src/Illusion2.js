@@ -12,15 +12,14 @@ function Illusion2() {
         alt="illusion2"
       />
       <div className="illusion-body-info">
-        <h6 className="illusion-body-info-h6">Lorem ipsum dolor</h6>
+        <h6 className="illusion-body-info-h6">Fraser spiral illusion – pt.1</h6>
         <p className="illusion-body-info-p">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          The Fraser spiral illusion is an optical illusion that was first
+          described by the British psychologist Sir James Fraser (1863–1936) in
+          1908. The illusion is also known as the false spiral, or by its
+          original name, the twisted cord illusion. The overlapping black arc
+          segments appear to form a spiral; however, the arcs are a series of
+          concentric circles.
         </p>
       </div>
       <div>

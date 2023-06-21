@@ -44,7 +44,7 @@
 
 .optical-text:hover {
   color: whitesmoke;
-  cursor: default;
+  cursor: none;
   transition: all 30s ease 0s;
 }
 

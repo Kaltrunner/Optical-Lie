@@ -9,9 +9,9 @@ function MainPage() {
         <h1 className="main-div-text">optical lie [a collection]</h1>
       </div>
 
-      <div class="external">
-        <div class="horizontal-scroll-wrapper">
-          <div class="img-wrapper slower">
+      <div className="external">
+        <div className="horizontal-scroll-wrapper">
+          <div className="img-wrapper slower">
             <Link to="/Illusion1">
               <div className="illusion-img-div">
                 <img
@@ -24,7 +24,7 @@ function MainPage() {
             </Link>
           </div>
 
-          <div class="img-wrapper faster">
+          <div className="img-wrapper faster">
             <Link id="img-round" to="/Illusion2">
               <div className="illusion-img-div">
                 <img
@@ -37,7 +37,7 @@ function MainPage() {
             </Link>
           </div>
 
-          <div class="img-wrapper slower vertical">
+          <div className="img-wrapper slower vertical">
             <Link to="/Illusion3">
               <div className="illusion-img-div">
                 <img
@@ -50,7 +50,7 @@ function MainPage() {
             </Link>
           </div>
 
-          <div class="img-wrapper slower slower-down">
+          <div className="img-wrapper slower slower-down">
             <Link to="/Illusion4">
               <div className="illusion-img-div">
                 <img
@@ -63,7 +63,7 @@ function MainPage() {
             </Link>
           </div>
 
-          <div class="img-wrapper">
+          <div className="img-wrapper">
             <Link to="/Illusion5">
               <div className="illusion-img-div">
                 <img
@@ -76,7 +76,7 @@ function MainPage() {
             </Link>
           </div>
 
-          <div class="img-wrapper slower">
+          <div className="img-wrapper slower">
             <img id="img-round" className="main-img" src="" alt="" />
             <Link id="img-round" to="/Illusion6">
               <div className="illusion-img-div">
@@ -90,7 +90,7 @@ function MainPage() {
             </Link>
           </div>
 
-          <div class="img-wrapper faster1">
+          <div className="img-wrapper faster1">
             <Link to="/Illusion7">
               <div className="illusion-img-div">
                 <img
@@ -103,7 +103,7 @@ function MainPage() {
             </Link>
           </div>
 
-          <div class="img-wrapper slower slower2">
+          <div className="img-wrapper slower slower2">
             <Link to="/Illusion8">
               <div className="illusion-img-div">
                 <img
@@ -116,7 +116,7 @@ function MainPage() {
             </Link>
           </div>
 
-          <div class="img-wrapper">
+          <div className="img-wrapper">
             <Link to="/Illusion9">
               <div className="illusion-img-div">
                 <img
@@ -129,7 +129,7 @@ function MainPage() {
             </Link>
           </div>
 
-          <div class="img-wrapper slower">
+          <div className="img-wrapper slower">
             <Link to="/Illusion10">
               <div className="illusion-img-div">
                 <img
@@ -142,7 +142,7 @@ function MainPage() {
             </Link>
           </div>
 
-          <div class="img-wrapper slower last">
+          <div className="img-wrapper slower last">
             <img className="main-img" src="" alt="" />
             <Link to="/Illusion11">
               <div className="illusion-img-div">

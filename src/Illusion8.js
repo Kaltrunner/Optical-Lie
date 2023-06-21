@@ -11,15 +11,13 @@ function Illusion8() {
         alt="illusion2"
       />
       <div className="illusion-body-info">
-        <h6 className="illusion-body-info-h6">Lorem ipsum dolor</h6>
+        <h6 className="illusion-body-info-h6">Fraser spiral illusion – pt.2</h6>
         <p className="illusion-body-info-p">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          The visual distortion is produced by combining a regular line pattern
+          (the circles) with misaligned parts. Zöllner's illusion and the café
+          wall illusion are based on a similar principle, like many other visual
+          effects, in which a sequence of tilted elements causes the eye to
+          perceive phantom twists and deviations.
         </p>
       </div>
       <div>
