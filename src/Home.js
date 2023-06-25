@@ -5,8 +5,10 @@ import Footer from "./Footer";
 function Home() {
   return (
     <div className="home-bidy-div">
-      <h1 className="optical-text">optical lie</h1>
-      
+      <div className="home-body-text">
+        <h1 className="optical-text">optical lie</h1>
+        {/* <h6 className="optical-text-h6"></h6> */}
+      </div>
       <div className="home-illusion-div">
         <Link to="/ErrorPage" id="home-img">
           <img
@@ -18,7 +20,7 @@ function Home() {
       </div>
       <div className="home-button-div">
         <Link to="/MainPage">
-          <button className="enter-button">dissolve</button>
+          <button className="enter-button">explor</button>
         </Link>
       </div>
       <Footer />
