@@ -20,7 +20,7 @@ function Home() {
       </div>
       <div className="home-button-div">
         <Link to="/MainPage">
-          <button className="enter-button">explor</button>
+          <button className="enter-button">explore</button>
         </Link>
       </div>
       <Footer />
