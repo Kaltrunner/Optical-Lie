@@ -39,13 +39,13 @@ function App() {
         <Route path="/Illusion11" element={<Illusion11 />} />
       </SlideRoutes>
       <AnimatedCursor
-        innerSize={42}
-        outerSize={42}
+        innerSize={0}
+        outerSize={52}
         color="225, 225, 225"
-        outerAlpha={0.2}
+        outerAlpha={1}
         innerScale={0.7}
-        outerScale={2.5}
-        trailingSpeed={17}
+        outerScale={2}
+        trailingSpeed={12}
         innerStyle={{
           mixBlendMode: "difference",
         }}
@@ -62,8 +62,8 @@ function App() {
           "label[for]",
           "select",
           "textarea",
-          "button",
-          ".link",
+          // "button",
+          // ".link",
         ]}
       />
     </>

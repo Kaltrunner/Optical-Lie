@@ -18,6 +18,7 @@
     background-color: whitesmoke;
     scrollbar-width: thin;
     scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+    cursor: default !important;
   }
   
   ::selection {
@@ -54,7 +55,6 @@
 
 .optical-text:hover {
   color: whitesmoke;
-  cursor: none;
   transition: all 30s ease 0s;
 }
 
@@ -427,6 +427,7 @@ a {
 
 a:hover img {
   filter: none;
+  cursor: pointer;
 }
 
 .scroll-info {
