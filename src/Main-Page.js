@@ -1,12 +1,14 @@
 import { ScrollToTop } from "react-router-scroll-to-top";
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
 
 function MainPage() {
   return (
     <div className="main-page-body-div">
-      <div>
-        <h1 className="main-div-text">optical lie [a collection]</h1>
+      <div className="main-page-nav">
+        <Link to="/">
+          <button className="home-btn">✕</button>
+        </Link>
+        <h1 className="main-div-text">optical lie - [a collection]</h1>
       </div>
 
       <div className="external">
@@ -157,12 +159,12 @@ function MainPage() {
           </div>
         </div>
       </div>
-      <div className="mainpage-button-div">
+      {/* <div className="mainpage-button-div">
         <Link to="/">
           <button className="optical-home-button">home</button>
         </Link>
-      </div>
-      <Footer />
+      </div> */}
+      {/* <Footer /> */}
       <ScrollToTop />
     </div>
   );

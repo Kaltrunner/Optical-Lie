@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat&family=Noto+Sans+TC&family=Press+Start+2P&family=Roboto&display=swap');
 
   ::-webkit-scrollbar {
-    width: 1px;
-    height: 1px;
+    display: none;
+  }
+
+  ::selection {
+    user-select: none;
   }
 
   ::-webkit-scrollbar-button {
@@ -10,19 +13,10 @@
     height: 1px;
   }
 
-  body::-webkit-scrollbar {
-    display: none;
-  }
   body {
     font-family: 'Roboto', sans-serif;
     background-color: whitesmoke;
-    scrollbar-width: thin;
-    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
     cursor: default !important;
-  }
-  
-  ::selection {
-    background-color: #000;
   }
 
 
@@ -35,27 +29,23 @@
   align-items: center;
 }
 
-.home-body-text {
-  display: flex;
-  align-items: flex-end
-}
-
 .optical-text {
-  font-size: 12vw;
+  font-size: 14vw;
   padding: 0;
   margin-top: 4vw;
   color: #000;
   transition: all 3s ease 0s;
 }
 
-.optical-text-h6 {
-  font-size: 1.5vw;
-  padding: 0;
+.optical-text-link {
+  text-decoration: none;
 }
 
 .optical-text:hover {
   color: whitesmoke;
-  transition: all 30s ease 0s;
+  filter: blur(6px);
+  transition: all 60s ease 0s;
+  cursor: pointer !important;
 }
 
 .enter-button {
@@ -126,7 +116,7 @@
 .footer-body-div {
   width: 100%;
   height: 28vh;
-  margin-top: 6vw;
+  margin-top: 12vw;
   background-color: #000;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -148,12 +138,12 @@
 #footer-link {
   text-decoration: none;
   color: gray;
-  transition: all 0.5s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 
 #footer-link:hover {
   border-bottom: 1px solid gray;
-  transition: all 0.5s ease-in-out;
+  cursor: pointer !important;
 }
 
 
@@ -196,17 +186,38 @@
 /* Main Page Styles */
 
 .main-page-body-div {
+  width: 100%;
+  height: 100vh;
   margin: 0;
-  height: auto;
+  padding: 0;
+}
+
+.main-page-nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-btn {
+  border: none;
+  background-color: whitesmoke;
+  font-size: 3vw;
+  padding: 0;
+  margin: 0 2vw;
+  transition: all .25s ease-in-out;
+}
+
+.home-btn:hover {
+  transform: rotate(90deg);
+  cursor: pointer;
 }
 
 .main-div-text {
   text-align: center;
   font-size: 4vw;
   padding: 0;
-  margin: 0;
-  margin-top: 4vw;
-  margin-bottom: -8vw;
+  margin: 0 2vw;
   color: #000;
   cursor: default;
 }
@@ -252,21 +263,35 @@
 
 .illusion-body-div {
   background-color: whitesmoke;
+  /* margin: 2vw; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
+.illusion-body-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center
+}
+
+.illusion-img-text-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4vw;
+}
+
 .illusion-body-text {
   font-size: 6vw;
-  margin: 0;
-  margin-top: 4vw;
+  margin: 0 4vw;
 }
 
 .illusion-image {
   padding: 0;
-  margin: 6vw;
   border-radius: 8px;
   box-shadow: 0 0 8px 2px;
   transition: all 2s ease-in-out;
@@ -279,51 +304,33 @@
 }
 
 .illusion-body-info {
-  width: 40%;
-  margin-bottom: 4vw;
+  width: 50%;
 }
 
 .illusion-body-info-h6 {
   font-size: 3vw;
-  
-  padding: 0;
+  padding-bottom: 1vw;
   margin: 0;
-  line-height: 6vh;
 }
 
 .illusion-body-info-p {
   font-size: 1.5vw;
   padding: 0;
   margin: 0;
-  line-height: 2.5vh;
+  line-height: 1.25;
 }
 
 .illusion-home-button {
-  width: 12vw;
-  height: 10vh;
-  font-size: 2vw;
+  font-size: 3vw;
   padding: 0;
-  background-color: #ededed;
-  border: 1px solid #000;
-  border-radius: 18px;
-  margin-bottom: 6vw;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.02),
-  0px 5px 4px rgba(0, 0, 0, 0.03),
-  0px 12px 9px rgba(0, 0, 0, 0.05),
-  0px 20px 15px rgba(0, 0, 0, 0.06),
-  0px 32px 24px rgba(0, 0, 0, 0.08);
+  margin: 0 4vw;
+  background-color: whitesmoke;
+  border: none;
   transition: all 0.25s ease-in-out;
 }
 .illusion-home-button:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.02),
-  0px 4px 5px rgba(0, 0, 0, 0.05),
-  0px 8px 12px rgba(0, 0, 0, 0.07),
-  0px 14px 21px rgba(0, 0, 0, 0.10),
-  0px 22px 33px rgba(0, 0, 0, 0.12),
-  0px 32px 47px rgba(0, 0, 0, 0.15);
-  transform: translateY(-6px);
-  transition: all 0.25s ease-in-out;
-  cursor: pointer;
+  transform: rotate(90deg);
+  cursor: pointer !important;
 }
 
 /* Illrusion 2 Styles */
@@ -427,7 +434,7 @@ a {
 
 a:hover img {
   filter: none;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 .scroll-info {
@@ -456,5 +463,10 @@ img {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
   
-   
+    .illusion-img-text-div {
+      flex-direction: column;
+    }
+    .illusion-image {
+      margin-bottom: 4vw;
+    }
 }

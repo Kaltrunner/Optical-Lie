@@ -6,8 +6,9 @@ function Home() {
   return (
     <div className="home-bidy-div">
       <div className="home-body-text">
-        <h1 className="optical-text">optical lie</h1>
-        {/* <h6 className="optical-text-h6"></h6> */}
+        <Link className="optical-text-link" to="/MainPage">
+          <h1 className="optical-text">optical lie</h1>
+        </Link>
       </div>
       <div className="home-illusion-div">
         <Link to="/ErrorPage" id="home-img">
@@ -18,11 +19,11 @@ function Home() {
           />
         </Link>
       </div>
-      <div className="home-button-div">
+      {/* <div className="home-button-div">
         <Link to="/MainPage">
           <button className="enter-button">explore</button>
         </Link>
-      </div>
+      </div> */}
       <Footer />
       <ScrollToTop />
     </div>
